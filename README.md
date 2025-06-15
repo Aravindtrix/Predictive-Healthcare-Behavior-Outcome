@@ -110,7 +110,7 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/<your-username>/mHealth-Behavior-and-Outcome-Prediction.git
+git clone https://github.com/<your-username>/Predictive-Healthcare-Behavior-Outcome.git
 
 # Install dependencies
 pip install -r requirements.txt
