@@ -55,3 +55,96 @@ User-Behavior-and-Outcome-Prediction/
 ├── README.md
 └── requirements.txt
 
+
+🗃 Datasets
+Both datasets are fully synthetic, generated to simulate real-world healthcare scenarios:
+
+🔹 mHealth Behavioral Dataset (synthetic_mhealth_data.csv)
+user_id
+
+store
+
+item
+
+page
+
+timestamp
+
+🔹 Patient Clinical Dataset (synthetic_patient_data.csv)
+patient_id
+
+age
+
+gender
+
+diagnosis
+
+treatment
+
+comorbidity_score
+
+hospital_visits
+
+treatment_duration_days
+
+outcome (binary)
+
+⚙️ Technologies Used
+Python 3.x
+
+Pandas
+
+NumPy
+
+scikit-learn
+
+mlxtend
+
+Faker (for synthetic data generation)
+
+Matplotlib / Seaborn
+
+
+Setup Instructions
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/<your-username>/mHealth-Behavior-and-Outcome-Prediction.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the models
+cd behavior_modeling/      # for behavioral prediction
+cd outcome_modeling/       # for clinical outcome prediction
+
+📈 Evaluation Metrics
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Execution Time (for pattern mining)
+
+🔥 Key Algorithms Implemented
+Similarity Inference Model (SIM)
+
+Max-Miner Algorithm (Frequent Transaction Mining)
+
+GIT-Tree (Frequent Itemset Mining)
+
+Longest Common Subsequence (LCS)
+
+Logistic Regression
+
+Random Forest Classifier
+
+📌 Citation
+If you wish to reference the underlying research ideas, please cite:
+
+User Performance Prediction Based On Their Behavioural Factors
+https://link.springer.com/chapter/10.1007/978-981-97-6806-6_1
