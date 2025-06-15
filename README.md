@@ -35,27 +35,6 @@ This project simulates and models:
 
 ---
 
-## 📁 Project Structure
-
-```bash
-User-Behavior-and-Outcome-Prediction/
-│
-├── data/                    # Synthetic datasets
-│   ├── synthetic_mhealth_data.csv
-│   └── synthetic_patient_data.csv
-│
-├── behavior_modeling/       # Sequential behavior mining code (PMHP-Mine, SIM, Max-Miner, GIT-Tree, LCS)
-│
-├── outcome_modeling/        # ML models for patient outcome prediction
-│
-├── notebooks/               # Jupyter notebooks for demo and exploration
-│
-├── utils/                   # Utility functions for data processing
-│
-├── README.md
-└── requirements.txt
-
-```
 🗃 Datasets
 Both datasets are fully synthetic, generated to simulate real-world healthcare scenarios:
 
